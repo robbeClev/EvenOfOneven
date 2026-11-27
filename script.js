@@ -1,6 +1,6 @@
 $("#knop").click(function () {
     var getal = $("#invoer").val();
-    if ($.isNumeric())
+    if ($.isNumeric(getal))
     {
         if (getal % 2 == 0) {
             $("#uitvoer").text("EVEN");
