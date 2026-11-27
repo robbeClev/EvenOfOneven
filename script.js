@@ -1,0 +1,8 @@
+$("#knop").click(function () {
+    var getal = $("#invoer").val();
+    if (getal % 2 == 0) {
+        $("#uitvoer").text("EVEN");
+    } else {
+        $("#uitvoer").text("ONEVEN");
+    }
+});
